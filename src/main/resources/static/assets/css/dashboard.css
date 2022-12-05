@@ -1,0 +1,103 @@
+:root {
+    --main-color: #f33f3f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+}
+
+/* Start RightBar */
+.right-bar {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px;
+    height: 100vh;
+    padding: 10px;
+}
+
+.right-bar h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.right-bar .d-g {
+    display: flex;
+    gap: 10px;
+}
+
+.right-bar ul li {
+    list-style: none;
+}
+
+.products,
+.users {
+    width: fit-content;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.products {
+    margin-right: 20px;
+}
+
+.users {
+    margin-right: 30px;
+}
+
+.right-bar ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+.right-bar ul .hover:hover {
+    background-color: white;
+    color: var(--main-color);
+    border-radius: 15px;
+}
+
+div.active {
+    background-color: white;
+    color: var(--main-color);
+    border-radius: 15px;
+}
+
+div.active li a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.right-bar .hover:hover li a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+/* End RightBar */
+/* Start Products */
+.product-details img {
+    width: 100px;
+    height: 70px;
+}
+
+/* End Products */
+/* Start Create Form */
+.create-form {
+    height: fit-content;
+    padding: 30px;
+    margin: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+/* End Create Form */
